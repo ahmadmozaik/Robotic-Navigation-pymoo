@@ -1,15 +1,3 @@
-"""
-Official implementation for the paper: "Biased Rewards in Route Optimization:
-A Robust Evolutionary Approach to Multi-Objective TSP".
-
-This script contains a complete Evolutionary Algorithm (EA) to solve a
-multi-objective version of the Traveling Salesman Problem (TSP), where the
-objectives are to minimize both travel distance and accumulated risk penalties.
-
-Authors: Ahmad Mozaik, Abdalla Dawoud, Abdelrahman Abubakr,
-         Yazeed Feras Yasin, Amro Khaled Al Haguri
-Date: August 2025
-"""
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
@@ -476,5 +464,6 @@ if __name__ == "__main__":
             pass
         else:
             print("Convergence plot is open. Close it to exit script if it's the last window.")
+
 
     print("\nScript finished.")
